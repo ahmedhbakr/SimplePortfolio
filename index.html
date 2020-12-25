@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+   
+    <link rel="stylesheet" href="css/docSlider.css" />
+    <link rel="stylesheet" href="css/scrollCue.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+   <script src="js/docSlider.min.js"></script>
+    <script src="js/scrollCue.min.js"></script>
+  </head>
+  <!-- PRELOADER -->
+  <div class="preloader">
+    <div class="preloader-container">
+      <div class="preloader-content">
+        <div class="preloader-box"></div>
+        <div class="preloader-box-shadow"></div>
+        <div class="preloader-text">
+          Loading
+          <div class="preloader-text-dots">
+            <span>.</span>&nbsp;<span>.</span>&nbsp;<span>.</span>
+          </div>
+        </div>
+      </div>
+      <div class="logo"></div>
+    </div>
+  </div>
+  <body class="ovh">
+    <div class="docSlider">
+      <section id="one" class="intro">
+          
+
+        <div class="intro-img"></div>
+        <div class="intro-desc">
+          <h1>HI THERE !</h1>
+          <span
+            class="prfx"
+            data-cues="fadeIn"
+            data-sort="random"
+            data-duration="100"
+            >I'M</span
+          >
+
+          <div
+            class="name"
+            data-cues="fadeIn"
+            data-duration="300"
+            data-group="images"
+          >
+            <span>A</span>
+            <span>H</span>
+            <span>M</span>
+            <span>E</span>
+            <span>D</span>
+            <span>H</span>
+            <span>U</span>
+            <span>S</span>
+            <span>S</span>
+            <span>I</span>
+            <span>E</span>
+            <span>N</span>
+          </div>
+
+          <p>
+            I am currently working as a front end developer and I was previously
+            an accountant Now focus on crafting clean, easy-to-use experiences
+            as a web developer.
+          </p>
+          <button class="intro-btn" class="info-btn">MORE ABOUT ME</button>
+        </div>
+      </section>
+
+      <section id="two" class="info">
+        <h2 class="info-headline" data-cue="slideInDown" data-duration="1000">
+          My Info
+        </h2>
+        <div class="info-wrapper">
+          <div class="info-pers-info">
+            <h2 class="info-pers-title">personal data</h2>
+            <table class="info-pers-table">
+              <tr>
+                <td>First Name : ahmed</td>
+                <td>Langages : Arabic , English</td>
+              </tr>
+              <tr>
+                <td>Last Name : hussien</td>
+                <td>Email : da@fdsf.com</td>
+              </tr>
+              <tr>
+                <td>age :31</td>
+              </tr>
+
+              <tr>
+                <td>
+                  <button
+                    class="info-btn"
+                    data-cue="slideInDown"
+                    data-duration="200"
+                  >
+                    Download CV
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="info-pers-data">
+            <div class="row">
+              <div class="info-pers-data-block">
+                <h3 data-cue="slideInUp" data-duration="2000">4</h3>
+                <div class="data">
+                  <p>YEARS OF EXPERIENCE</p>
+                </div>
+              </div>
+              <div class="info-pers-data-block">
+                <h3 data-cue="slideInUp" data-duration="2000">30</h3>
+
+                <div class="data">
+                  <p>COMPLETED PROJECTS</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="info-pers-data-block">
+                <h3 data-cue="slideInUp" data-duration="2000">25</h3>
+                <div class="data">
+                  <p>HAPPY CUSTOMERS</p>
+                </div>
+              </div>
+              <div class="info-pers-data-block">
+                <h3 data-cue="slideInUp" data-duration="2000">12</h3>
+                <div class="data">
+                  <p>AWARDS WON</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="three" class="skills">
+        <h2
+          class="skills-headline"
+          class="info-headline"
+          data-cue="slideInDown"
+          data-duration="1000"
+        >
+          My skills
+        </h2>
+        <div class="skills-wrapper">
+          <div class="skills-row">
+            <div class="skills-block" data-cue="slideInUp" data-duration="1000">
+              <svg class="animated" viewbox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="var(--main3)" />
+                <path
+                  class="progress"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-width="5"
+                  stroke="var(--main2)"
+                  stroke-dasharray="225.6,125.6"
+                  d="M50 10
+                a 40 40 0 0 1 0 80
+                a 40 40 0 0 1 0 -80"
+                />
+                <text
+                  class="textProgress"
+                  x="50"
+                  y="50"
+                  text-anchor="middle"
+                  dy="7"     
+                  fill="var(--main2)"
+                >
+                  97%
+                </text>
+              </svg>
+              <div class="skill-title">html</div>
+            </div>
+
+            <div class="skills-block" data-cue="slideInUp" data-duration="1100">
+              <svg class="animated" viewbox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="var(--main3)" />
+                <path
+                  class="progress"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-width="5"
+                  stroke="var(--main2)"
+                  stroke-dasharray="200.6,125.6"
+                  d="M50 10
+                a 40 40 0 0 1 0 80
+                a 40 40 0 0 1 0 -80"
+                />
+                <text
+                  class="textProgress"
+                  x="50"
+                  y="50"
+                  text-anchor="middle"
+                  dy="7"
+                  fill="var(--main2)"
+                >
+                  80%
+                </text>
+              </svg>
+              <div class="skill-title">css</div>
+            </div>
+
+            <div class="skills-block" data-cue="slideInUp" data-duration="1300">
+              <svg class="animated" viewbox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="var(--main3)" />
+                <path
+                  class="progress"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-width="5"
+                  stroke="var(--main2)"
+                  stroke-dasharray="170.6,125.6"
+                  d="M50 10
+                a 40 40 0 0 1 0 80
+                a 40 40 0 0 1 0 -80"
+                />
+                <text
+                  class="textProgress"
+                  x="50"
+                  y="50"
+                  text-anchor="middle"
+                  dy="7"
+                  fill="var(--main2)"
+                >
+                  77%
+                </text>
+              </svg>
+              <div class="skill-title">Javascript</div>
+            </div>
+
+            <div class="skills-block" data-cue="slideInUp" data-duration="1400">
+              <svg class="animated" viewbox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="var(--main3)" />
+                <path
+                  class="progress"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-width="5"
+                  stroke="var(--main2)"
+                  stroke-dasharray="150.6,125.6"
+                  d="M50 10
+                a 40 40 0 0 1 0 80
+                a 40 40 0 0 1 0 -80"
+                />
+                <text
+                  class="textProgress"
+                  x="50"
+                  y="50"
+                  text-anchor="middle"
+                  dy="7"
+                  fill="var(--main2)"
+                >
+                  65%
+                </text>
+              </svg>
+              <div class="skill-title">Jquery</div>
+            </div>
+          </div>
+          <div class="skills-row">
+            <div class="skills-block" data-cue="slideInUp" data-duration="1600">
+              <svg class="animated" viewbox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="var(--main3)" />
+                <path
+                  class="progress"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-width="5"
+                  stroke="var(--main2)"
+                  stroke-dasharray="88.6,155.6"
+                  d="M50 10
+                a 40 40 0 0 1 0 80
+                a 40 40 0 0 1 0 -80"
+                />
+                <text
+                  class="textProgress"
+                  x="50"
+                  y="50"
+                  text-anchor="middle"
+                  dy="7"
+                  fill="var(--main2)"
+                >
+                  45%
+                </text>
+              </svg>
+              <div class="skill-title">PHP</div>
+            </div>
+
+            <div class="skills-block" data-cue="slideInUp" data-duration="1600">
+              <svg class="animated" viewbox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="var(--main3)" />
+                <path
+                  class="progress"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-width="5"
+                  stroke="var(--main2)"
+                  stroke-dasharray="155.6,125.6"
+                  d="M50 10
+                a 40 40 0 0 1 0 80
+                a 40 40 0 0 1 0 -80"
+                />
+                <text
+                  class="textProgress"
+                  x="50"
+                  y="50"
+                  text-anchor="middle"
+                  dy="7"
+                  fill="var(--main2)"
+                >
+                  70%
+                </text>
+              </svg>
+              <div class="skill-title">Wordpress</div>
+            </div>
+
+            <div class="skills-block" data-cue="slideInUp" data-duration="1700">
+              <svg class="animated" viewbox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="var(--main3)" />
+                <path
+                  class="progress"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-width="5"
+                  stroke="var(--main2)"
+                  stroke-dasharray="140.6,125.6"
+                  d="M50 10
+                a 40 40 0 0 1 0 80
+                a 40 40 0 0 1 0 -80"
+                />
+                <text
+                  class="textProgress"
+                  x="50"
+                  y="50"
+                  text-anchor="middle"
+                  dy="7"
+                  fill="var(--main2)"
+                >
+                  60%
+                </text>
+              </svg>
+              <div class="skill-title">react js</div>
+            </div>
+            <div class="skills-block" data-cue="slideInUp" data-duration="1800">
+              <svg class="animated" viewbox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="var(--main3)" />
+                <path
+                  class="progress"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-width="5"
+                  stroke="var(--main2)"
+                  stroke-dasharray="140.6,125.6"
+                  d="M50 10
+                a 40 40 0 0 1 0 80
+                a 40 40 0 0 1 0 -80"
+                />
+                <text
+                  class="textProgress"
+                  x="50"
+                  y="50"
+                  text-anchor="middle"
+                  dy="7"
+                  fill="var(--main2)"
+                >
+                  60%
+                </text>
+              </svg>
+              <div class="skill-title">Angular js</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      scrollCue.init({ docSlider: true, pageChangeReset: true });
+      docSlider.init();
+    </script>
+
+    <script>
+      var overlayEvent = new CustomEvent("overlayLoaded");
+      $(function () {
+        $(".preloader")
+          .delay(350)
+          .fadeOut("slow", function () {
+            document.dispatchEvent(overlayEvent);
+            $("body").removeClass("ovh");
+          });
+      });
+    </script>
+  </body>
+</html>

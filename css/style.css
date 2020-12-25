@@ -23,7 +23,7 @@ body.ovh {overflow: hidden}
 .info-pers-info{padding: 0px;}
 .info-pers-data{display:flex;padding:5px;}
 .info-pers-data-block{background-color:#36363685;margin:10px 5px;width:250px;padding:10px;}
-.info-pers-data-block h3{padding: 5px;color:var(--main2);font-size: 16px;}
+.info-pers-data-block h3{padding: 5px;color:var(--main2);font-size: 30px;}
 .info-pers-data-block p{color:var(--white);width:100px;padding-left:45px;}
 .info-pers-data-block .data{display:flex;padding:0px;line-height:30px;margin:0px;}
 .info-pers-data-block p:before{box-sizing:border-box;content:"";margin-left:-40px;margin-top:10px;position:absolute;width:30px;height:1px;background:#777;}

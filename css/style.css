@@ -82,6 +82,7 @@ body.ovh {overflow: hidden}
 .info-pers-data-block{text-align:center;width:100% }
 .info-pers-data-block p{width:auto;}
 .info{height:100vh;}
+.info-pers-data-block h3 {font-size: 14px}
 .info-headline{padding:10px 0px;font-size:20px;margin:6px 0 10px;letter-spacing:4px;}
 .info-pers-data-block{margin:5px;padding:0px;}
 .info-pers-title{font-size:20px;}
